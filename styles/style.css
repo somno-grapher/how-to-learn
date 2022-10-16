@@ -45,7 +45,8 @@
 
 .header__title {
   margin: 0 0 0 64px;
-  width: 730px;
+  max-width: 730px;
+  width:100%;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -59,7 +60,8 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -118,7 +120,8 @@
 .two-columns__brief {
   padding: 0;
   margin: 0;
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -186,6 +189,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin:0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .table_theme_light {
@@ -237,7 +243,8 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width:100%;
   margin: 0 auto 70px;
   padding-top: 100px;
   text-align: center;
