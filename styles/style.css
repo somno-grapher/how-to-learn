@@ -2,16 +2,17 @@
   from {
     transform: rotate(0);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-/* * { */
+* {
 /* for better understanding box areas */
-/* box-sizing: border-box; */
-/* border: solid 1px gray; */
-/* } */
+box-sizing: border-box;
+border: solid 1px gray;
+}
 
 .page {
   min-width: 1100px;
@@ -163,6 +164,23 @@
   padding: 0;
   margin: 0;
   font-weight: 600;
+}
+
+/* .TECHNIQUES */
+
+.techniques {
+  padding-top: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  max-width: 920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
 }
 
 /* .DIGITS (+ .KAUFMAN REUSED) */
