@@ -1,0 +1,16 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+* {
+  /* for better understanding box areas */
+  box-sizing: border-box;
+  border: solid 1px gray;
+}

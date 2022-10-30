@@ -1,0 +1,14 @@
+.header {
+  /* in order to absolute position child elements */
+  position: relative;
+  min-height: 600px;
+  max-height: 756px;
+  /* an interesting one */
+  height: 100vh;
+  background-color: #f2f2f2;
+  color: #000;
+  /* to center childs vertically */
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
