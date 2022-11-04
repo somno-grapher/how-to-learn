@@ -1,0 +1,8 @@
+.link {
+  /* default ease is ok */
+  transition: opacity .5s;
+}
+
+.link:hover {
+  opacity: .5;
+}
