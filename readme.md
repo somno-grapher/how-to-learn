@@ -1,18 +1,18 @@
-# How to Learn
-## Description
-How to Learn is a one-page site providing valuable information on how to learn efficiently, including references to external resources.
+# Научиться учиться
+## Описание
+"Научиться учиться" — это одностраничный сайт с ценной информацией о правилах эффективного обучения, включая ссылки на внешние ресурсы.
 
-The following techologies are used for the site implementation:
-- flexbox;
-- semantic tags;
-- BEM;
-- positioning;
-- images references;
+Для создания сайта использованы следующие технологии:
+- флексбокс;
+- семантическая разметка;
+- БЭМ;
+- позиционирование;
+- изображения;
 - YouTube API;
-- transitions;
-- animations, key-frames;
+- переходы;
+- анимации, ключенвые кадры;
 - git/GitHub.
-## Planned Improvements
-It is planned to:
-- add working links to external resources;
-- set CSS rules inside selectors in a more structured way.
+## Планы по совершенствованию
+Планируется:
+- добавить работающие ссылки на внешние ресурсы;
+- расположить правила CSS внутри селекторов по тематическим группам, а внутри групп — по алфавиту.
