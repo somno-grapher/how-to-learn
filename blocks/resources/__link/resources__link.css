@@ -1,3 +1,4 @@
 .resources__link {
-  display: flex
+  display: flex;
+  align-items: center;
 }
