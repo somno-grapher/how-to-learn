@@ -1,5 +1,9 @@
 .section-title_theme_dark {
-  margin: 0 auto 20px;
+  /* margins are duplicated in the block modificatiors
+  because setting spacing is not recommended for blocks */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   position: relative;
   color: white;
   z-index: 1;
