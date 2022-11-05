@@ -49,7 +49,7 @@
           </div>
         </article>
       </section>
-      <section class="techniques centered-block">
+      <section class="techniques content__techniques">
         <h2 class="section-title section-title_theme_light">
           Техники обучения
         </h2>
@@ -103,10 +103,8 @@
         <h2 class="section-title  section-title_theme_light">Видео нa TED</h2>
         <p class="section-subtitle section-subtitle_theme_light">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-            allow="fullscreen"></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-            allow="fullscreen"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="fullscreen"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="fullscreen"></iframe>
         </div>
       </section>
       <section class="oakley">
@@ -207,20 +205,19 @@
         </ul>
       </section>
       <section class="khan">
-        <article class="khan__container centered-block">
+        <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
-            всему
-            миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+            всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
+            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-sublime">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="Весь мир — школа" class="khan__book-pic">
             <a href="#" target="_blank" class=" khan__buy-link link">Купить книгу &rarr;</a>
           </div>
-        </article>
+        </div>
       </section>
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">
@@ -297,14 +294,18 @@
         <h2 class="section-title section-title_theme_light">Полезные ресурсы</h2>
         <p class="section-subtitle section-subtitle_theme_light">Больше материалов о техниках и лайфхаках обучения</p>
         <nav class="resources__logo-zone">
-          <a href="#" target="_blank"><img src=" ./images/logo/resources-arzamas.svg" alt="Арзамас"
-              class="resources__link link"></a>
-          <a href="#" target="_blank"><img src=" ./images/logo/resources-n1.svg" alt="Н+1"
-              class="resources__link link"></a>
-          <a href="#" target="_blank"><img src=" ./images/logo/resources-strelka.svg" alt="Стрелка"
-              class="resources__link link"></a>
-          <a href="#" target="_blank"><img src=" ./images/logo/resources-polka.svg" alt="Полка"
-              class="resources__link link"></a>
+          <a class="resources__link link" href="#" target="_blank">
+            <img class="resources__logo" src=" ./images/logo/resources-arzamas.svg" alt="Арзамас">
+          </a>
+          <a class="resources__link link" href="#" target="_blank">
+            <img class="resources__logo" src=" ./images/logo/resources-n1.svg" alt="Н+1">
+          </a>
+          <a class="resources__link link" href="#" target="_blank">
+            <img class="resources__logo" src=" ./images/logo/resources-strelka.svg" alt="Стрелка">
+          </a>
+          <a class="resources__link link" href="#" target="_blank">
+            <img class="resources__logo" src=" ./images/logo/resources-polka.svg" alt="Полка">
+          </a>
         </nav>
       </section>
     </main>
