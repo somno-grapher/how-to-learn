@@ -1,8 +1,6 @@
 .section-title_theme_light {
   /* margins are duplicated in the block modificatiors
   because setting spacing is not recommended for blocks */
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 20px;
   color: #000;
 }
